@@ -3,92 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f7fb">
+    <meta name="description" content="Portefólio de Tiago Gama, estudante de Engenharia Informática.">
     <title>Tiago Gama - Portefólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Tiago Gama</h1>
-        <p>Estudante de Engenharia Informática UPBeja</p>
-        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #ddd;">
-        <p>Bem-vindo ao meu portefólio digital.</p><br>
-        <p>
-            Meu nome é Tiago Gama, estou a tirar a licenciatura 
-            em Engenharia informática no UPBeja, tenho interesse
-            na área de programação e procuro a minha primeira 
-            oportunidade profissional.
-        </p>
-        <p>
-            Gosto de jogar, aprender, ler e fazer caminhadas.
-        </p>
+    <header class="siteHeader">
+        <nav class="navigationContainer" aria-label="Navegação principal">
+            <a class="brand" href="#inicio" aria-label="Tiago Gama — início">
+                <span class="brand-mark">TG</span>
+                <span>Tiago Gama</span>
+            </a>
+            <div class="nav-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#percurso">Percurso</a>
+                <a href="#projetos">Meus Projetos</a> 
+                <a href="#competencias">Competencias</a>  
+                <a class="nav-contact" href="#contacto">Contacto <span aria-label="true"></span></a> 
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero container" id="inicio">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span>Portefólio Digital<span class="eyebrown-divider"></span> 2026</p>
+                <h1>Olá sou o <br><span>Tiago Gama</span></h1>
+                <p class="hero-role">Estudante de Engenharia Informática</p>
+                <p class="hero-description">
+                    Curioso por tecnologia, motivado para aprender e pronto para transformar ideias em projetos. 
+                </p> 
+                <div class="hero-action">
+                    <a class="button button-primary" href="#percurso">Conheça o meu percurso<span aria-hidden="true">↓</span></a>
+                </div>
+            </div>
+            <div class="hero-art">
+                <div class="art-orbit orbit-one"></div>
+                <div class="art-orbit orbit-two"></div>
+                <div class="art-card">
+                    <span class="art-card-label">A aprender</span>
+                    <span class="art-code">&lt;code /&gt;</span>
+                    <span class="art-card-footer">Engenharia · Criatividade · Tecnologia</span>
+                </div>
+                <span class="art-spark spark-one">✳</span>
+                <span class="art-spark spark-two">✳</span>
+                <span class="art-caption">01 - sempre em evolução</span>
+            </div>
+            <a class="scroll-cue" href="#sobre">Explorar</a>
+        </section>
 
-        <h2>Educação</h2>
-        <p>12ºAno em Ciências e Tecnológia</p>
-        <p>Universidade Politécnica de Beja 2024-2027</p> 
-        <p>Licenciatura em Engenharia Infórmática</p>
+        <section class="section container" id="sobre">
+            <div class="section-heading">
+                <p class="eyebrow">01 / Sobre Min</p>
+                <h2>Aprender Hoje.<br><span>Criar o que vem seguir.</span></h2>
+            </div>
+            <div class="about-content">
+                <p class="about-lead">
+                    Estou a tirar a licenciatura em Engenharia Informática na Universidade Politécnica de Beja e procuro a minha primeira oportunidade profissional.
+                </p>
+                <p class="about-detail">
+                    Tenho interesse pelas áreas de programação e desenvolvimento de aplicações. Gosto de jogar, ler, fazer caminhadas e decobrir coisas novas dentro e fora da tecnologia.
+                </p>
+                <div class="about-facts">
+                    <div><span class="fact-number">01</span><span>Curiosidade<br>constante</span></div>
+                    <div><span class="fact-number">02</span><span>Espírito de<br>equipa</span></div>
+                    <div><span class="fact-number">03</span><span>Vontade de<br>fazer acontecer</span></div>
+                </div>
+            </div>
+        </section>
 
-        <h2>Linguas</h2>
-        <li>
-            <ul>Português - Lingua Materna</ul>
-            <ul>Inglês - Nível B1</ul>
-        </li>
+        <section class="section section-tinted" id="percurso">
+            <div class="container">
+                <div>
+                    <p class="eyebrow">02 / Percurso</p>
+                    <h2>O caminho<br><span>até aqui.</span></h2>
+                </div>
+                <p class="section-intro">Cada experiência é uma oportunidade de aprender, experimentar e crescer.</p>
+            </div>
+            <div class="journey-grid">
+                <article class="journey-card">
+                    <span class="card-index">01</span>
+                    <p class="card-date">2024 - 2027</p>
+                    <h3>Licenciatura em Engenharia Informática</h3>
+                    <p>Universidade Politécnica de Beja</p>
+                    <span class="card-tag">Ensino Superior</span>
+                </article>
+                <article class="journey-card">
+                    <span class="card-index">02</span>
+                    <p class="card-date">Agosto 2026</p>
+                    <h3>Estágio de Verão</h3>
+                    <p>Somincor — contacto com o trabalho de informática numa empresa.</p>
+                    <span class="card-tag">Experiência prática</span>
+                </article>
+                <article class="journey-card">
+                    <span class="card-index">03</span>
+                    <p class="card-date">2021 - 2024</p>
+                    <h3>Ciências e Tecnológias</h3>
+                    <p>10º, 11º e 12ºano</p>
+                    <span class="card-tag">Ensino Secundário</span>
+                </article>
+            </div>
+        </section>
 
-        <h2>Experiência</h2>
-        <p>Estágio de Verão Somincor 2026 (Agosto 2026)</p>
-        <p>Troquei peças de computador e vi o que um informático faz neste tipo de empresa</p>
+        <section class="section container" id="projetos">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">03 / Projetos</p>
+                    <h2>Ideias a ganhar<br><span>forma.</span></h2>
+                </div>
+                <p class="section-intro">Um espaço para partilhar o que estou a aprender e construir.</p>
+            </div>
+            <div class="projects-panel">
+                <div class="project-preview" aria-hidden="true">
+                    <span class="project-preview-label">A construir</span>
+                    <span class="project-preview-code">&lt;code /&gt;</span>
+                    <span class="project-preview-footer">Curiosidade -> Código</span>
+                </div>
+                <div class="projects-message">
+                    <span class="card-index">01</span>
+                    <p class="card-date">Novidades em breve</p>
+                    <h3>Os próximos projetos estão a ganhar forma.</h3>
+                    <p>Estou a preparar novos projetos para partilhar por aqui. Até lá, podes acompanhar o meu trabalho no GitHub.</p>
+                    <a class="project-link" href="https://github.com/TGama13" target="_blank" rel="noopener noreferrer">
+                        Explorar GitHub <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <h2>Competencias Técnicas</h2>
-        <li>
-            <ul>Back-End</ul>
-            <ul>Front-End</ul>
-            <ul>Desenolvimento Android</ul>
-            <ul>Desenvolvimento de Aplicações</ul>
-        </li>
+        <section class="section container" id="competencias">
+            <div class="section-heading">
+                <p class="eyebrow">04 / Competências</p>
+                <h2>Ferramentas para<br><span>continuar a crescer.</span></h2>
+            </div>
+            <div class="skills-layout">
+                <div class="skills-group">
+                    <h3>Linguagens & Tecnologias</h3>
+                    <div class="skill-tags">
+                        <span>Java</span><span>Kotlin</span><span>Python</span><span>C</span>
+                        <span>SQL</span><span>SQL Server</span><span>HTML</span><span>CSS</span>
+                        <span>JavaScript / TypeScript</span><span>PHP</span>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3>Frameworks & áreas</h3>
+                    <div class="skill-tags">
+                        <span>React</span><span>Angular</span><span>Laravel</span><span>ASP.Net</span>
+                        <span>Back-End</span><span>Front-End</span><span>Desenvolvimento Android</span>
+                        <span>Desenvolvimento de Aplicações</span>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h3>Conpetências Pessoais</h3>
+                    <div class="skill-tags">
+                        <span>Trabalho em Equipa</span><span>Curiosidade</span>
+                        <span>Aprendizagem Continua</span><span>Gestão de Tempo</span>
+                        <span>Adaptabilidade</span>
+                    </div>
+                </div>
+            </div>
+            <div class="languages-note">
+                <span class="languages-label">IDIOMAS</span>
+                <p><strong>Português</strong> Língua materna <span class="language-separator">/</span> <strong>Inglês</strong> Nível B1</p>
+            </div>
+        </section>
 
-        <h3>Linguagens de Programação</h3>
-        <li>
-            <ul>Java</ul>
-            <ul>Kotlin</ul>
-            <ul>Python</ul>
-            <ul>C</ul>
-            <ul>SQL</ul>
-            <ul>SQL Server</ul>
-            <ul>HTML</ul>
-            <ul>CSS</ul>
-            <ul>JavaScript/TypeScript</ul>
-            <ul>PHP</ul>
-        </li>
+        <section class="contact-section" id="contacto">
+            <div class="container contact-inner">
+                <div>
+                    <p class="eyebrow">05 / Contacto</p>
+                    <h2>Vamos criar<br><span>algo interessante?</span></h2>
+                    <p class="contact-note">Estou disponivel para conversar sobre oportunidades, ideias e tecnologia.</p>
+                </div>
+                <div class="contact-links">
+                    <a class="contact-email" href="mailto:tiagogama006@gmail.com">tiagogama006@gmail.com <span aria-hidden="true">↗</span></a>
+                    <a href="https://github.com/TGama13" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                    <a href="https://www.linkedin.com/in/tiago-gama-ab4519272/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+                    <a href="Video%20Pitch.mp4">Ver vídeo de apresentação <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <h3>Técnologias Dominantes</h3>
-        <li>
-            <ul>React</ul>
-            <ul>Angular</ul>
-            <ul>Laravel</ul>
-        </li>
-
-        <h2>Competencias Transversais</h2>
-        <li>
-            <ul>Trabalho em Grupo</ul>
-            <ul>Curiosidade e Aprendizagem Continua</ul>
-            <ul>Gestão do Tempo</ul>
-            <ul>Adaptabilidade e Flexibilidade</ul>
-        </li>
-
-        <h2>Projetos</h2>
-        <li>
-            <ul></ul>
-        </li>
-
-        <h2>Dados de Contacto</h2>
-        <li>
-            <ul>Telefone: +351 123 456 789</ul>
-            <ul>Email: tiagogama006@gmail.com</ul>
-        </li>
-
-        <h2>Links Uteis</h2>
-        <p><a href="https://github.com/TGama13" target="_blank">Visite o meu GitHub</a></p>
-        <p><a href="https://www.linkedin.com/in/tiago-gama-ab4519272/" >LinkedIn</a></p>
-        <p><a href="Video Pitch.mp4">Video de Apresentação</a></p>
-    </div>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand footer-brand" href="#inicio"><span class="brand-mark">TG</span><span>Tiago Gama</span></a>
+            <p>Feito com curiosidade <span aria-hidden="true">✳</span> 2026</p>
+            <a class="back-to-top" href="#inicio">Voltar ao início ↑</a>
+        </div>
+    </footer>
 </body>
 </html>
